@@ -93,10 +93,10 @@ h1 {
 
 /* MOBILE */ 
 @media (max-width: 600px) {
-    .key { height: min(70px, 16vw); /* altezza mobile quella scritta in vw*/ 
+    .key { height: min(70px, 15vw); /* altezza mobile quella scritta in vw*/ 
   } 
     .key.big { 
-    height: min(70px, 16vw); } 
+    height: min(70px, 15vw); } 
   }
 
 
