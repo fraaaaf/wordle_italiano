@@ -71,7 +71,7 @@ h1 {
   background-color: #d3d6da;
   border: none;
   margin: 3px;
-  padding: 12px;
+  /*padding: 12px;*/
   border-radius: 4px;
   font-size: min(18px, 4.5vw);
   font-weight: bold;
