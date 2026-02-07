@@ -23,7 +23,7 @@ h1 {
 
   gap: 0.4rem;
   width: 90vw; /* Occupa il 90% dello schermo */ 
-  max-width: 350px; /* Ma non supera i 350px su desktop */ 
+  /*max-width: 350px; /* Ma non supera i 350px su desktop */ 
   justify-content: center;    /*non ho ancora capito perché ma questo fa in modo che i margini vegnano rispettati come voglio io*/
   margin: 10 auto;
 }
@@ -37,7 +37,7 @@ h1 {
 .cell {
   width: min(60px, 14vw);
   height: min(60px, 14vw);
-  border: 1px solid #999;
+  border: 2px solid #d3d6da;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +54,7 @@ h1 {
 
 #keyboard {
   width: 95vw;
-  max-width: 500px;
+  /*max-width: 500px;*/
   margin: 10px auto;
 }
 
