@@ -16,6 +16,7 @@ h1 {
 
 #board {
   display: grid;     /* 5 colonne, 6 righe */
+  width: fit-content;
   
   /*aspect-ratio: 5 / 6; 
   /*dovrebbe risolvere il fatto che la griglia risulta più schiacciata in verticale che in orizzontale*/
