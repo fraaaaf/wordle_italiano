@@ -16,15 +16,15 @@ h1 {
 
 #board {
   display: grid;     /* 5 colonne, 6 righe */
-  width: fit-content;
+  /*width: fit-content;
   
   /*aspect-ratio: 5 / 6; 
   /*dovrebbe risolvere il fatto che la griglia risulta più schiacciata in verticale che in orizzontale*/
   /* così ogni riga dovrebbe avere l'altezza naturale delle sue celle*/
 
   gap: 0.4rem;
-  /*width: 90vw; /* Occupa il 90% dello schermo */ 
-  /*max-width: 350px; /* Ma non supera i 350px su desktop */ 
+  width: 90vw; /* Occupa il 90% dello schermo */ 
+  max-width: 350px; /* Ma non supera i 350px su desktop */ 
   justify-content: center;    /*non ho ancora capito perché ma questo fa in modo che i margini vegnano rispettati come voglio io*/
   margin: 10 auto;
 }
