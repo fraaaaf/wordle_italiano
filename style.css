@@ -96,7 +96,7 @@ h1 {
     .key { height: min(70px, 14vw); /* altezza mobile */ 
   } 
     .key.big { 
-    height: min(70px, 18vw); } 
+    height: min(70px, 14vw); } 
   }
 
 
