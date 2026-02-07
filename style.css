@@ -57,7 +57,7 @@ h1 {
 #keyboard {
   width: 95vw;
   max-width: 500px;
-  margin: 10px auto;
+  margin: 20px auto;
   box-sizing: border-box;
 }
 
@@ -87,13 +87,13 @@ h1 {
 }
 
 .key.big {
-  width: min(80px, 20vw);                /* ENTER e DEL più larghi */
+  width: min(80px, 18vw);                /* ENTER e DEL più larghi */
   font-size: min(14px, 4.5vw);
 }
 
 /* MOBILE */ 
 @media (max-width: 600px) {
-    .key { height: min(70px, 16vw); /* altezza mobile */ 
+    .key { height: min(70px, 16vw); /* altezza mobile quella scritta in vw*/ 
   } 
     .key.big { 
     height: min(70px, 16vw); } 
