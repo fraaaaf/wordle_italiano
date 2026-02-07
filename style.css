@@ -91,6 +91,14 @@ h1 {
   font-size: min(14px, 4.5vw);
 }
 
+/* MOBILE */ 
+@media (max-width: 600px) {
+    .key { height: min(70px, 14vw); /* altezza mobile */ 
+  } 
+    .key.big { 
+    height: min(70px, 18vw); } 
+  }
+
 
 
 /* Colore delle lettere dopo che viene premuto ENTER */
