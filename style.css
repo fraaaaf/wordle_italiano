@@ -93,10 +93,10 @@ h1 {
 
 /* MOBILE */ 
 @media (max-width: 600px) {
-    .key { height: min(70px, 14vw); /* altezza mobile */ 
+    .key { height: min(70px, 16vw); /* altezza mobile */ 
   } 
     .key.big { 
-    height: min(70px, 14vw); } 
+    height: min(70px, 16vw); } 
   }
 
 
