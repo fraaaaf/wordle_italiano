@@ -22,17 +22,18 @@ h1 {
   /*dovrebbe risolvere il fatto che la griglia risulta più schiacciata in verticale che in orizzontale*/
   /* così ogni riga dovrebbe avere l'altezza naturale delle sue celle*/
 
-  gap: 0.4rem;   /* questa è la distanza fra una riga e laltra della griglia*/
+  gap: 0.3rem;   /* questa è la distanza fra una riga e laltra della griglia*/
   width: 90vw; /* Occupa il 90% dello schermo */ 
   max-width: 350px; /* Ma non supera i 350px su desktop */ 
   align-items: center;    /*non ho ancora capito perché ma questo fa in modo che i margini vegnano rispettati come voglio io*/
+  justify-content: center;
   margin: 10 auto;
 }
 
 .row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 0.2rem;   /*distanza tra una cella e l'altra, quindi distanza fra le colonne*/
+  gap: 0.3rem;   /*distanza tra una cella e l'altra, quindi distanza fra le colonne*/
 }
 
 .cell {
@@ -77,7 +78,7 @@ h1 {
   color: #000000;
   cursor: pointer;
   width: min(45px, 10vw);                /* Larghezza standard dei tasti */
-  height: min(60px, 12vw);
+  height: min(65px, 13vw);
   text-align: center;
   display: flex;              /* Per centrare il testo */
   justify-content: center;
