@@ -101,7 +101,18 @@ function showWinScreen() {
 }
 
 
-// 8. Funzione: controlla la parola
+// 8. Funzione mostra a video la schermata di sconfitta
+function showLoseScreen() {
+  const loseScreen = document.getElementById("lose-screen");
+  const solutionWord = document.getElementById("solution-word");
+
+  solutionWord.textContent = secretWord.toUpperCase();
+  loseScreen.classList.remove("hidden");
+}
+
+
+
+// 9. Funzione: controlla la parola
 function checkWord() {
   if (currentCol < 5) {
     alert("La parola non è completa");
@@ -175,7 +186,13 @@ function checkWord() {
 
   currentRow++;
   currentCol = 0;
+
+  if (currentRow === 6 && !(guess === secretWord)) {
+  showLoseScreen();
 }
+
+}
+
 
 
 document.getElementById("btn-menu").addEventListener("click", () => {
@@ -201,3 +218,6 @@ document.getElementById("btn-replay").addEventListener("click", () => {
 //provare a implementare anche connections che potrebbe essere molto carino
 
 //provare anche eventualemente ad inserire una breve spiegazione di ripasso delle parole indovinate o magari anche un'immagine
+
+
+//devi implementare anche la comparsa di una schermata quando l'utente esaurisce i suoi tentativi e non ha indovinato la parola

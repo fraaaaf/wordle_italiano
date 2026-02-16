@@ -112,8 +112,24 @@
   </div>
 </div>
 
+<!-- Schermata che compare quando NON viene indovinata la parola -->
+<div id="lose-screen" class="hidden">
+  <div class="lose-box">
+    <h5>Mi dispiace, non hai indovinato.</h5>
+    <p class="subtitle">La parola di oggi era:</p>
+    <h2 id="solution-word"></h2>
+
+    <button id="btn-menu">Torna al menù</button>
+    <button id="btn-replay">Modalità allenamento</button>
+  </div>
+</div>
+
 
   <!-- Qui collego la logica del gioco che scrivo sul file in JS -->
   <script src="gioco.js"></script>
 </body>
 </html>
+
+
+
+
